@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="502e57a5-34c2-4634-9025-39b0b1e47da9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPerson.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YaweNUd8yc2g6SrOJRvg0aDepC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="JUnit.io.zipcoder.interfaces in Maven.LearnerLab">
+    <configuration name="TestPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven.LearnerLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPerson" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven.LearnerLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudent" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudent.testLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven.LearnerLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudent" />
+      <option name="METHOD_NAME" value="testLearn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="io.zipcoder.interfaces in Maven.LearnerLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven.LearnerLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.io.zipcoder.interfaces in Maven.LearnerLab" />
+        <item itemvalue="JUnit.TestStudent.testLearn" />
+        <item itemvalue="JUnit.TestStudent" />
+        <item itemvalue="JUnit.TestPerson" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="502e57a5-34c2-4634-9025-39b0b1e47da9" name="Default Changelist" comment="" />
+      <created>1583194107338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583194107338</updated>
+      <workItem from="1583194110708" duration="514000" />
+      <workItem from="1583194639627" duration="144000" />
+      <workItem from="1583194806024" duration="632000" />
+      <workItem from="1583195443790" duration="867000" />
+      <workItem from="1583196349227" duration="94000" />
+      <workItem from="1583196463910" duration="15000" />
+      <workItem from="1583196504251" duration="80000" />
+      <workItem from="1583196595847" duration="107000" />
+      <workItem from="1583197184206" duration="1859000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="267" y="-863" key="#Notifications" timestamp="1583195912432">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="267" y="-863" key="#Notifications/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583195912432" />
+    <state x="489" y="294" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583195513563">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="489" y="294" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.728/-293.-1057.1920.1057@0.23.1280.728" timestamp="1583195513563" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1583199057739">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583199057739" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1583199057738">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583199057738" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1583199057737">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583199057737" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1583199057738">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583199057738" />
+    <state x="-101" y="-1057" key="SettingsEditor" timestamp="1583196650830">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="-101" y="-1057" key="SettingsEditor/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583196650830" />
+    <state x="128" y="23" key="SettingsEditor/0.23.1280.728/-293.-1057.1920.1057@0.23.1280.728" timestamp="1583195508475" />
+    <state x="137" y="-738" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583196037739">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="137" y="-738" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583196037739" />
+    <state x="305" y="173" key="run.anything.popup" timestamp="1583194718684">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="305" y="173" key="run.anything.popup/0.23.1280.728/-293.-1057.1920.1057@0.23.1280.728" timestamp="1583194718684" />
+    <state x="332" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1583199703435">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="332" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583199703435" />
+  </component>
+</project>
