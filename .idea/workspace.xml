@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502e57a5-34c2-4634-9025-39b0b1e47da9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,7 +65,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.io.zipcoder.interfaces in Maven.LearnerLab">
+  <component name="RunManager" selected="JUnit.TestInstructor">
+    <configuration name="TestInstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven.LearnerLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestInstructor" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Maven.LearnerLab" />
       <extension name="coverage">
@@ -131,6 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestInstructor" />
         <item itemvalue="JUnit.io.zipcoder.interfaces in Maven.LearnerLab" />
         <item itemvalue="JUnit.TestStudent.testLearn" />
         <item itemvalue="JUnit.TestStudent" />
@@ -157,6 +170,9 @@
       <workItem from="1583196504251" duration="80000" />
       <workItem from="1583196595847" duration="107000" />
       <workItem from="1583197184206" duration="1859000" />
+      <workItem from="1583199685375" duration="403000" />
+      <workItem from="1583278299234" duration="48000" />
+      <workItem from="1583278942671" duration="1060000" />
     </task>
     <servers />
   </component>
@@ -172,22 +188,22 @@
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="489" y="294" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.728/-293.-1057.1920.1057@0.23.1280.728" timestamp="1583195513563" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1583199057739">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1583280009651">
       <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583199057739" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1583199057738">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009651" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1583280009649">
       <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583199057738" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1583199057737">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009649" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1583280009648">
       <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583199057737" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1583199057738">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009648" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1583280009650">
       <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583199057738" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009650" />
     <state x="-101" y="-1057" key="SettingsEditor" timestamp="1583196650830">
       <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
@@ -201,9 +217,9 @@
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="305" y="173" key="run.anything.popup/0.23.1280.728/-293.-1057.1920.1057@0.23.1280.728" timestamp="1583194718684" />
-    <state x="332" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1583199703435">
+    <state x="332" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1583279483795">
       <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="332" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583199703435" />
+    <state x="332" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583279483795" />
   </component>
 </project>
