@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="502e57a5-34c2-4634-9025-39b0b1e47da9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,8 +67,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.TestInstructor">
-    <configuration name="TestInstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestStudents.testStudents">
+    <configuration name="TestPeople" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Maven.LearnerLab" />
       <extension name="coverage">
         <pattern>
@@ -75,13 +77,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestInstructor" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPeople.addStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Maven.LearnerLab" />
       <extension name="coverage">
         <pattern>
@@ -90,44 +92,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPerson" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Maven.LearnerLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudent" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStudent.testLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Maven.LearnerLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudent" />
-      <option name="METHOD_NAME" value="testLearn" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
+      <option name="METHOD_NAME" value="addStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="io.zipcoder.interfaces in Maven.LearnerLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPeople.removeStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Maven.LearnerLab" />
       <extension name="coverage">
         <pattern>
@@ -136,18 +108,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
+      <option name="METHOD_NAME" value="removeStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPeople.testSearchedForId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven.LearnerLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
+      <option name="METHOD_NAME" value="testSearchedForId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudents.testStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven.LearnerLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudents" />
+      <option name="METHOD_NAME" value="testStudents" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestInstructor" />
-        <item itemvalue="JUnit.io.zipcoder.interfaces in Maven.LearnerLab" />
-        <item itemvalue="JUnit.TestStudent.testLearn" />
-        <item itemvalue="JUnit.TestStudent" />
-        <item itemvalue="JUnit.TestPerson" />
+        <item itemvalue="JUnit.TestStudents.testStudents" />
+        <item itemvalue="JUnit.TestPeople" />
+        <item itemvalue="JUnit.TestPeople.testSearchedForId" />
+        <item itemvalue="JUnit.TestPeople.removeStudent" />
+        <item itemvalue="JUnit.TestPeople.addStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +179,7 @@
       <workItem from="1583199685375" duration="403000" />
       <workItem from="1583278299234" duration="48000" />
       <workItem from="1583278942671" duration="2467000" />
+      <workItem from="1583290582849" duration="2443000" />
     </task>
     <servers />
   </component>
@@ -192,22 +199,42 @@
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="489" y="294" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.728/-293.-1057.1920.1057@0.23.1280.728" timestamp="1583195513563" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1583280009651">
-      <screen x="-293" y="-1057" width="1920" height="1057" />
+    <state width="2507" height="388" key="GridCell.Tab.0.bottom" timestamp="1583292786786">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2507" height="388" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583292786786" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009651" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1583280009649">
-      <screen x="-293" y="-1057" width="1920" height="1057" />
+    <state width="2507" height="388" key="GridCell.Tab.0.center" timestamp="1583292786786">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2507" height="388" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583292786786" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009649" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1583280009648">
-      <screen x="-293" y="-1057" width="1920" height="1057" />
+    <state width="2507" height="388" key="GridCell.Tab.0.left" timestamp="1583292786785">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2507" height="388" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583292786785" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009648" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1583280009650">
-      <screen x="-293" y="-1057" width="1920" height="1057" />
+    <state width="2507" height="388" key="GridCell.Tab.0.right" timestamp="1583292786786">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2507" height="388" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583292786786" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009650" />
+    <state width="2507" height="779" key="GridCell.Tab.1.bottom" timestamp="1583291206271">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2507" height="779" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583291206271" />
+    <state width="2507" height="779" key="GridCell.Tab.1.center" timestamp="1583291206271">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2507" height="779" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583291206271" />
+    <state width="2507" height="779" key="GridCell.Tab.1.left" timestamp="1583291206271">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2507" height="779" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583291206271" />
+    <state width="2507" height="779" key="GridCell.Tab.1.right" timestamp="1583291206271">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2507" height="779" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583291206271" />
     <state x="-101" y="-1057" key="SettingsEditor" timestamp="1583196650830">
       <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>

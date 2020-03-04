@@ -63,9 +63,9 @@ public class People implements Iterable<Person> {
     {
         Person[] result = new Person[personList.size()];
 
-        for(Person element : personList)
+        for(Integer i = 0; i < personList.size(); i++)
         {
-            personList.add(element);
+            result[i] = personList.get(i);
         }
 
         return result;
