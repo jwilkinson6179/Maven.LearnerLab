@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="502e57a5-34c2-4634-9025-39b0b1e47da9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/interfaces/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/interfaces/TestStudents.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.TestStudents.testStudents">
+  <component name="RunManager" selected="JUnit.TestInstructors">
+    <configuration name="TestInstructors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven.LearnerLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestInstructors" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPeople" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Maven.LearnerLab" />
       <extension name="coverage">
@@ -83,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPeople.addStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Maven.LearnerLab" />
       <extension name="coverage">
         <pattern>
@@ -92,14 +108,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
-      <option name="METHOD_NAME" value="addStudent" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudents" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPeople.removeStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStudents.changesAcrossDifferentVars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Maven.LearnerLab" />
       <extension name="coverage">
         <pattern>
@@ -108,24 +123,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
-      <option name="METHOD_NAME" value="removeStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPeople.testSearchedForId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Maven.LearnerLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.zipcoder.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.zipcoder.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestPeople" />
-      <option name="METHOD_NAME" value="testSearchedForId" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.interfaces.TestStudents" />
+      <option name="METHOD_NAME" value="changesAcrossDifferentVars" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestInstructors" />
+        <item itemvalue="JUnit.TestStudents" />
         <item itemvalue="JUnit.TestStudents.testStudents" />
+        <item itemvalue="JUnit.TestStudents.changesAcrossDifferentVars" />
         <item itemvalue="JUnit.TestPeople" />
-        <item itemvalue="JUnit.TestPeople.testSearchedForId" />
-        <item itemvalue="JUnit.TestPeople.removeStudent" />
-        <item itemvalue="JUnit.TestPeople.addStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +179,7 @@
       <workItem from="1583278299234" duration="48000" />
       <workItem from="1583278942671" duration="2467000" />
       <workItem from="1583290582849" duration="2443000" />
+      <workItem from="1583347418896" duration="1520000" />
     </task>
     <servers />
   </component>
@@ -191,6 +191,10 @@
       <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
     <state x="267" y="-863" key="#Notifications/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583195912432" />
+    <state x="-193" y="-957" width="1720" height="808" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583331996681">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="-193" y="-957" width="1720" height="808" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583331996681" />
     <state x="480" y="-812" key="#com.intellij.ide.util.MemberChooser" timestamp="1583280897113">
       <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
@@ -199,42 +203,50 @@
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="489" y="294" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.728/-293.-1057.1920.1057@0.23.1280.728" timestamp="1583195513563" />
-    <state width="2507" height="388" key="GridCell.Tab.0.bottom" timestamp="1583292786786">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="180" key="GridCell.Tab.0.bottom" timestamp="1583349012554">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
     <state width="2507" height="388" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583292786786" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009651" />
-    <state width="2507" height="388" key="GridCell.Tab.0.center" timestamp="1583292786786">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="180" key="GridCell.Tab.0.bottom/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583349012554" />
+    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1583348573464" />
+    <state width="1878" height="180" key="GridCell.Tab.0.center" timestamp="1583349012552">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
     <state width="2507" height="388" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583292786786" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009649" />
-    <state width="2507" height="388" key="GridCell.Tab.0.left" timestamp="1583292786785">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="180" key="GridCell.Tab.0.center/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583349012552" />
+    <state width="1238" height="180" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1583348573464" />
+    <state width="1878" height="180" key="GridCell.Tab.0.left" timestamp="1583349012551">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
     <state width="2507" height="388" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583292786785" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009648" />
-    <state width="2507" height="388" key="GridCell.Tab.0.right" timestamp="1583292786786">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="180" key="GridCell.Tab.0.left/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583349012551" />
+    <state width="1238" height="180" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1583348573463" />
+    <state width="1878" height="180" key="GridCell.Tab.0.right" timestamp="1583349012553">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
     <state width="2507" height="388" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583292786786" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583280009650" />
-    <state width="2507" height="779" key="GridCell.Tab.1.bottom" timestamp="1583291206271">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="180" key="GridCell.Tab.0.right/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583349012553" />
+    <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1583348573464" />
+    <state width="1878" height="338" key="GridCell.Tab.1.bottom" timestamp="1583347224119">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
     <state width="2507" height="779" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583291206271" />
-    <state width="2507" height="779" key="GridCell.Tab.1.center" timestamp="1583291206271">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="338" key="GridCell.Tab.1.bottom/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583347224119" />
+    <state width="1878" height="338" key="GridCell.Tab.1.center" timestamp="1583347224118">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
     <state width="2507" height="779" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583291206271" />
-    <state width="2507" height="779" key="GridCell.Tab.1.left" timestamp="1583291206271">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="338" key="GridCell.Tab.1.center/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583347224118" />
+    <state width="1878" height="338" key="GridCell.Tab.1.left" timestamp="1583347224118">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
     <state width="2507" height="779" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583291206271" />
-    <state width="2507" height="779" key="GridCell.Tab.1.right" timestamp="1583291206271">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="338" key="GridCell.Tab.1.left/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583347224118" />
+    <state width="1878" height="338" key="GridCell.Tab.1.right" timestamp="1583347224119">
+      <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
     <state width="2507" height="779" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583291206271" />
+    <state width="1878" height="338" key="GridCell.Tab.1.right/0.23.1280.728/-293.-1057.1920.1057@-293.-1057.1920.1057" timestamp="1583347224119" />
     <state x="-101" y="-1057" key="SettingsEditor" timestamp="1583196650830">
       <screen x="-293" y="-1057" width="1920" height="1057" />
     </state>
