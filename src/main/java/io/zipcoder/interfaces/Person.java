@@ -24,4 +24,9 @@ public class Person {
     {
         return name;
     }
+
+    @Override
+    public String toString() {
+        return String.format("ID: %d, Name: %s", id, name);
+    }
 }

@@ -1,28 +1,27 @@
 package io.zipcoder.interfaces;
 
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 public class TestInstructors
 {
     Instructors test;
-    Instructor teacher;
 
     @Before
     public void init()
     {
         test = Instructors.getInstance();
-        teacher = new Instructor(12345L, "Dolio");
     }
 
     @Test
-    public void addingATeacher()
+    public void testInstructors()
     {
-        test.addPerson(teacher);
+        String expected = "ID: 992, Name: Roberto DeDeus";
 
-        assertTrue(test.contains(teacher));
+        String actual = test.findById(992L).toString();
+
+        assertEquals(expected, actual);
     }
 }
